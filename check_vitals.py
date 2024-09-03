@@ -9,7 +9,7 @@ def blink_warning(message, blink_count=6, blink_interval=1):
         print('\r* ', end='')
         sys.stdout.flush()
         sleep(blink_interval)
-        print('\r *', end='')
+        print('\r  ', end='')
         sys.stdout.flush()
         sleep(blink_interval)
 
