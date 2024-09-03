@@ -1,5 +1,5 @@
 import unittest
-from monitor import vitals_ok
+from check_vitals import vitals_ok
 
 
 class MonitorTest(unittest.TestCase):
